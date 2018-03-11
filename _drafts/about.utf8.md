@@ -6,7 +6,7 @@ tags: code forensics
 description: Sample post about UTF-8 encoding
 ---
 
-## 소개
+## Introduction
 
 UTF-8 was designed for backward compatibility with ASCII.
 
