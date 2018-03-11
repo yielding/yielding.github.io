@@ -1,7 +1,7 @@
 ---
 layout: post
 title: About UTF-8
-date: 2018-03-11 14:33:22
+date: 2018-03-10 14:33:22
 description: 포렌식 분석 관점에서UTF-8 encoding
 share: true
 tags:
