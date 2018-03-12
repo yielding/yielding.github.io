@@ -1,6 +1,5 @@
 # Jekyll configuration
 
-title: What?
 name: Life rushes on, we are distracted
 email: yielding@gmail.com
 description: Software Developer
@@ -9,7 +8,6 @@ description: Software Developer
 baseurl: ""
 
 # Url is currently only used only for the RSS feed in feed.xml
-url: ""
 url: http://yielding.github.io
 
 github_username: yielding
