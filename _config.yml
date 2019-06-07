@@ -25,7 +25,8 @@ github_username:  yielding
 
 # Build settings
 markdown: kramdown
-theme: devlopr
+remote_theme : mmistakes/minimal-mistakes
+#theme: devlopr
 plugins:
   - jekyll-feed
 
