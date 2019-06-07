@@ -109,7 +109,7 @@ author:
   name             : "Lee Chang Ha"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an amazing person."
-  location         : "Seoul"
+  location         : "Seoul, Korea"
   email            :
   links:
     - label: "Email"
@@ -120,10 +120,10 @@ author:
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      url: "https://twitter.com/yielding"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://facebook.com/yielding"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url: "https://github.com/"
