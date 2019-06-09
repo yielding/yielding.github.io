@@ -6,9 +6,22 @@ main:
     url: /categories/
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+  #
+# 블로그 만들기 포스트 사이드바
+sidebar-blogging:
+  - title: "Digital Forensics"
+    children:
+      - title: "Rainbow table Generation"
+        url: "/blogging/raminblow-table/"
+
+  - title: "Programming 코드"
+    children:
+      - title: "Rainbow table Generation"
+        url: "/blogging/raminblow-table/"
