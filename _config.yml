@@ -294,35 +294,10 @@ defaults:
       comments: true
       share: true
       related: true
-      sidebar:
-        nav: sidebar-blogging
+      #sidebar:
+      #  nav: sidebar-blogging
         
-  # _posts/programming
-  - scope:
-      path: "_posts/programming"
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-      sidebar:
-        nav: sidebar-programming
-      
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      classes: wide
-      author_profile: true
-      comments: true
-      share: true
-      search: true
-      related: true
+
       
   # _pages
   - scope:
