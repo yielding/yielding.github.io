@@ -21,7 +21,7 @@ sidebar-blogging:
       - title: "Rainbow table Generation"
         url: "/blogging/raminblow-table/"
 
-  - title: "Programming 코드"
+  - title: "Programming"
     children:
       - title: "Rainbow table Generation"
         url: "/blogging/raminblow-table/"
