@@ -15,7 +15,11 @@ remote_theme           : "mmistakes/minimal-mistakes@4.16.4"
 minimal_mistakes_skin  : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
+<<<<<<< HEAD
 locale                   : "un-US"
+=======
+locale                   : "en-US"
+>>>>>>> 82c30ac87ee0223f6f92266f06127e4c519bb92e
 title                    : "Live rushes on, we are distracted"
 title_separator          : "-"
 name                     : "Lee Chang Ha"
