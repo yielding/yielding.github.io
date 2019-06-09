@@ -108,9 +108,9 @@ analytics:
 author:
   name             : "Lee Chang Ha"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : "Digital Forensic S/W developer, Expert Witness"
   location         : "Seoul, Korea"
-  email            :
+  email            : "yielding@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
