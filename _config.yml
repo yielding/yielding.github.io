@@ -20,7 +20,7 @@ title                    : "Live rushes on, we are distracted"
 title_separator          : "-"
 name                     : "Lee Chang Ha"
 description              : "Stories about Digital Forensics and Programming"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://yielding.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -241,6 +241,10 @@ whitelist:
   - jemoji
 
 
+strict_front_matter: true
+liquid:
+  error_mode: strict
+
 # Archives
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
@@ -297,20 +301,6 @@ defaults:
   # _posts/programming
   - scope:
       path: "_posts/programming"
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-      sidebar:
-        nav: sidebar-blogging
-        
-  # _posts
-  - scope:
-      path: ""
       type: posts
     values:
       layout: single
