@@ -12,7 +12,7 @@
 
 theme                  : "minimal-mistakes-jekyll"
 #remote_theme           : "mmistakes/minimal-mistakes@4.16.4"
-minimal_mistakes_skin  : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin  : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -283,25 +283,49 @@ compress_html:
 # Defaults
 defaults:
 
-  # _posts/blogging
+  #  # _posts/blogging
+  #  - scope:
+  #      path: "_posts/blogging"
+  #      type: posts
+  #    values:
+  #      layout: single
+  #      author_profile: true
+  #      read_time: true
+  #      comments: true
+  #      share: true
+  #      related: true
+  #      sidebar:
+  #        nav: sidebar-blogging
+  #        
+  #  # _posts/programming
+  #  - scope:
+  #      path: "_posts/programming"
+  #      type: posts
+  #    values:
+  #      layout: single
+  #      author_profile: true
+  #      read_time: true
+  #      comments: true
+  #      share: true
+  #      related: true
+  #      sidebar:
+  #        nav: sidebar-blogging
+
+  # _posts
   - scope:
-      path: "_posts/blogging"
+      path: ""
       type: posts
     values:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: # true
       share: true
       related: true
-      #sidebar:
-      #  nav: sidebar-blogging
-        
-
       
   # _pages
   - scope:
-      path: "_pages"
+      path: ""
       type: pages
     values:
       layout: single
