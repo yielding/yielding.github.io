@@ -183,8 +183,7 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
+
 keep_files:
   - .git
   - .svn
@@ -310,8 +309,21 @@ defaults:
       share: true
       related: true
       sidebar:
-        nav: sidebar-blogging
-        
+        nav: sidebar-programming
+      
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      classes: wide
+      author_profile: true
+      comments: true
+      share: true
+      search: true
+      related: true
+      
   # _pages
   - scope:
       path: "_pages"
