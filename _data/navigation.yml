@@ -18,10 +18,10 @@ main:
 sidebar-blogging:
   - title: "Digital Forensics"
     children:
-      - title: "Rainbow table Generation"
-        url: "/blogging/raminblow-table/"
+      - title: "Digtal Forensics"
+        url: "/blogging/What's-FFS/"
 
   - title: "Programming"
     children:
       - title: "Rainbow table Generation"
-        url: "/blogging/raminblow-table/"
+        url: "/programming/rainbow-table/"
